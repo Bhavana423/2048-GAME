@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #faf8ef; /* Light background to contrast the game board */
+}
+
+hr {
+    width: 500px;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+    background-color: #cdc1b5;
+    border: 6px solid #bbada0;
+    margin: 20px auto; /* Add some margin for better spacing */
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #bbada0;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Default text color */
+    background-color: #ccc; /* Default tile color */
+}
+
+/* Rainbow-colored tiles */
+.x2 {
+    background-color: #ff0000; /* Red */
+    color: #fff;
+}
+
+.x4 {
+    background-color: #ff7f00; /* Orange */
+    color: #fff;
+}
+
+.x8 {
+    background-color: #ffff00; /* Yellow */
+    color: #000;
+}
+
+.x16 {
+    background-color: #00ff00; /* Green */
+    color: #000;
+}
+
+.x32 {
+    background-color: #0000ff; /* Blue */
+    color: #fff;
+}
+
+.x64 {
+    background-color: #4b0082; /* Indigo */
+    color: #fff;
+}
+
+.x128 {
+    background-color: #9400d3; /* Violet */
+    color: #fff;
+}
+
+.x256 {
+    background-color: #ff1493; /* Deep Pink */
+    color: #fff;
+}
+
+.x512 {
+    background-color: #ff69b4; /* Hot Pink */
+    color: #fff;
+}
+
+.x1024 {
+    background-color: #ff4500; /* Orange Red */
+    color: #fff;
+}
+
+.x2048 {
+    background-color: #ff6347; /* Tomato */
+    color: #fff;
+}
+
+.x4096 {
+    background-color: #ff0000; /* Red */
+    color: #fff;
+}
+
+.x8192 {
+    background-color: #8b0000; /* Dark Red */
+    color: #fff;
+}
